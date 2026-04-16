@@ -1,41 +1,41 @@
 # 🌀 Jujutsu Kaisen: Fighting Plugin (1.21.6+)
 
-Проект, который переносит механики аниме «Магическая битва» в Minecraft. Плагин разрабатывался как основа для файтинга, где каждый персонаж обладает уникальным набором техник и стилем игры.
+A Minecraft plugin that brings "Jujutsu Kaisen" mechanics to life. Originally designed as a foundation for a fighting game, each character features a unique kit, playstyle, and custom techniques.
 
-> **⚠️ Статус проекта:** Alpha (Не завершен). Многие функции требуют доработки, балансировки и тестов. Разработка продолжается в зависимости от фидбека.
+> **⚠️ Project Status:** Alpha (Work in Progress). Many features require further development, balancing, and testing. Future updates depend on community feedback.
 
-## 👥 Доступные персонажи
+## 👥 Available Characters
 `gojo`, `yuji`, `sukuna`, `toji`, `mahito`, `hakari`, `megumi`, `choso`, `kashimo`, `jogo`, `naoya`
 
-## ✨ Основные механики
-* **Система проклятой энергии:** Индивидуальный ресурс для использования способностей.
-* **Чёрная молния:** Шанс на критический удар с характерными эффектами.
-* **Система мастерства:** Необходима для разблокировки ультимативных способностей (настроена для части героев).
-* **Кастомные дэши:** У каждого персонажа свой уникальный рывок.
-* **Территории:** Реализована база для расширения домена (столкновения территорий в процессе разработки).
-* **Resource Pack:** Включает звуковое сопровождение и визуальные эффекты для доменов некоторых персонажей.
+## ✨ Key Mechanics
+* **Cursed Energy System:** A dedicated resource for using abilities.
+* **Black Flash:** A chance to land critical hits with custom visual effects.
+* **Mastery System:** Required to unlock Ultimate abilities (currently configured for select heroes).
+* **Custom Dashes:** Unique movement abilities for every character.
+* **Domain Expansion:** Base system for domains is implemented (Domain Clashes are currently in development).
+* **Resource Pack:** Includes custom sounds and visuals for specific character domains.
 
-## 🎮 Управление
-*Важно: способности работают только после выбора персонажа.*
+## 🎮 Controls
+*Note: Abilities only work once a character is selected.*
 
 
-| Действие | Клавиши |
+| Action | Controls |
 | :--- | :--- |
-| **Открыть меню техник** | Присед (Shift/Ctrl) + ПКМ (по воздуху или блоку) |
-| **Использовать технику** | Присед + ЛКМ |
-| **Использовать дэш** | Присед + Пробел |
-| **Интерактивная способность** | Клавиша F (Смена рук) |
+| **Open Technique Menu** | Sneak (Shift/Ctrl) + Right-Click (Item or Block) |
+| **Use Technique** | Sneak + Left-Click |
+| **Custom Dash** | Sneak + Space |
+| **Interactive Ability** | Swap Hands Key (Default: F) |
 
-## 🛠 Команды
-* `/jjk select <персонаж>` — Выбрать персонажа.
-* `/jjk get` — Посмотреть список доступных персонажей.
+## 🛠 Commands
+* `/jjk select <character>` — Select your character.
+* `/jjk get` — View the list of available characters.
 
-## 🛑 Текущие ограничения (В разработке)
-На данный момент плагин может быть несбалансированным, так как не проходил массовых тестов:
-1. **Кулдауны:** У большинства героев время перезарядки способностей еще не настроено.
-2. **Мастерство:** Прогрессия ультимейтов требует калибровки.
-3. **Столкновение территорий:** Механика в процессе реализации.
-4. **Канон:** Некоторые способности изменены для улучшения игрового баланса файтинга.
+## 🛑 Known Limitations (TODO)
+The plugin is currently unpolished and may be unbalanced due to a lack of playtesting:
+1. **Cooldowns:** Ability cooldowns are not yet configured for most heroes.
+2. **Mastery Levels:** Ultimate ability progression needs fine-tuning.
+3. **Domain Clashes:** This mechanic is still a work in progress.
+4. **Non-Canon Elements:** Some abilities were modified for better fighting game balance.
 
 ---
-Если вам интересен проект, оставляйте **Issue** или фидбек — это ускорит выход обновлений!
+If you find this project interesting, please leave an **Issue** or provide feedback to support further development!
