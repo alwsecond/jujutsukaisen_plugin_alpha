@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jjk:jar">
+    <output-path>$PROJECT_DIR$/../../../../_paperServer/plugins</output-path>
+    <root id="archive" name="jjk.jar">
+      <element id="module-output" name="jjk" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+name: jjk
+version: '1.0-SNAPSHOT'
+main: abvgd.JJKPlugin
+api-version: '1.21'
+commands:
+  jjk:
+    description: Основная команда плагина JJK
+    usage: /<command>
